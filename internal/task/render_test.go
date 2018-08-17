@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package task
 
 import (
@@ -5,7 +10,8 @@ import (
 
 	"github.com/frozzare/go/env"
 	"github.com/frozzare/go/yaml2"
-	"github.com/frozzare/max/internal/backend/config"
+
+	"github.com/sniperkit/snk.fork.max/internal/backend/config"
 )
 
 func TestRenderEnvVariables(t *testing.T) {

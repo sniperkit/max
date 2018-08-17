@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
@@ -7,9 +12,10 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/frozzare/max/internal/config"
-	"github.com/frozzare/max/internal/runner"
 	"github.com/spf13/pflag"
+
+	"github.com/sniperkit/snk.fork.max/internal/config"
+	"github.com/sniperkit/snk.fork.max/internal/runner"
 )
 
 const usage = `

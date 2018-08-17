@@ -1,11 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
 	"io/ioutil"
 	"os"
 
-	"github.com/frozzare/max/internal/config"
 	"github.com/pkg/errors"
+
+	"github.com/sniperkit/snk.fork.max/internal/config"
 )
 
 func readConfig(path string) (*config.Config, error) {

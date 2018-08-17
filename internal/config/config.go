@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package config
 
 import (
@@ -9,10 +14,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/frozzare/max/internal/cache"
-	"github.com/frozzare/max/internal/task"
 	"github.com/mitchellh/go-homedir"
 	"gopkg.in/yaml.v2"
+
+	"github.com/sniperkit/snk.fork.max/internal/cache"
+	"github.com/sniperkit/snk.fork.max/internal/task"
 )
 
 var (

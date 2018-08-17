@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package runner
 
 import (
 	"log"
 
-	"github.com/frozzare/max/internal/backend"
-	"github.com/frozzare/max/internal/config"
+	"github.com/sniperkit/snk.fork.max/internal/backend"
+	"github.com/sniperkit/snk.fork.max/internal/config"
 )
 
 // Option configures a runtime option.

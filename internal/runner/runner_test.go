@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package runner
 
 import (
@@ -6,8 +11,9 @@ import (
 	"testing"
 
 	"github.com/frozzare/go/yaml2"
-	"github.com/frozzare/max/internal/config"
-	"github.com/frozzare/max/internal/task"
+
+	"github.com/sniperkit/snk.fork.max/internal/config"
+	"github.com/sniperkit/snk.fork.max/internal/task"
 )
 
 func TestRunner(t *testing.T) {

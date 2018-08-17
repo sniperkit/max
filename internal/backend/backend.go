@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package backend
 
 import (
 	"context"
 	"io"
 
-	"github.com/frozzare/max/internal/task"
+	"github.com/sniperkit/snk.fork.max/internal/task"
 )
 
 // Engine defines a engine that can run tasks.

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package task
 
 func toEnv(env map[string]string) []string {

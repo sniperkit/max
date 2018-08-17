@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package docker
 
 import (
@@ -14,9 +19,10 @@ import (
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/volume"
 	"github.com/docker/docker/client"
-	"github.com/frozzare/max/internal/backend"
-	"github.com/frozzare/max/internal/backend/config"
-	"github.com/frozzare/max/internal/task"
+
+	"github.com/sniperkit/snk.fork.max/internal/backend"
+	"github.com/sniperkit/snk.fork.max/internal/backend/config"
+	"github.com/sniperkit/snk.fork.max/internal/task"
 )
 
 type engine struct {

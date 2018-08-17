@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package local
 
 import (
@@ -6,10 +11,10 @@ import (
 	"io"
 	"log"
 
-	"github.com/frozzare/max/internal/backend"
-	"github.com/frozzare/max/internal/backend/config"
-	"github.com/frozzare/max/internal/exec"
-	"github.com/frozzare/max/internal/task"
+	"github.com/sniperkit/snk.fork.max/internal/backend"
+	"github.com/sniperkit/snk.fork.max/internal/backend/config"
+	"github.com/sniperkit/snk.fork.max/internal/exec"
+	"github.com/sniperkit/snk.fork.max/internal/task"
 )
 
 type engine struct {

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package task
 
 import (
@@ -6,8 +11,9 @@ import (
 	"os"
 
 	"github.com/frozzare/go/yaml2"
-	"github.com/frozzare/max/internal/backend/config"
-	"github.com/frozzare/max/internal/exec"
+
+	"github.com/sniperkit/snk.fork.max/internal/backend/config"
+	"github.com/sniperkit/snk.fork.max/internal/exec"
 )
 
 // Task represents a task.

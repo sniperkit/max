@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package runner
 
 import (
@@ -14,15 +19,16 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/frozzare/max/internal/backend"
-	backendConfig "github.com/frozzare/max/internal/backend/config"
-	"github.com/frozzare/max/internal/backend/docker"
-	"github.com/frozzare/max/internal/backend/local"
-	"github.com/frozzare/max/internal/config"
-	"github.com/frozzare/max/internal/task"
 	"github.com/gorhill/cronexpr"
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
+
+	"github.com/sniperkit/snk.fork.max/internal/backend"
+	backendConfig "github.com/sniperkit/snk.fork.max/internal/backend/config"
+	"github.com/sniperkit/snk.fork.max/internal/backend/docker"
+	"github.com/sniperkit/snk.fork.max/internal/backend/local"
+	"github.com/sniperkit/snk.fork.max/internal/config"
+	"github.com/sniperkit/snk.fork.max/internal/task"
 )
 
 // Runner represents a the runner.

@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
 	"log"
 
-	"github.com/frozzare/max/internal/config"
 	"github.com/spf13/pflag"
+
+	"github.com/sniperkit/snk.fork.max/internal/config"
 )
 
 var (

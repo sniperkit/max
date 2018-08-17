@@ -1,8 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
-	"github.com/frozzare/max/cmd"
 	_ "github.com/joho/godotenv/autoload"
+
+	"github.com/sniperkit/snk.fork.max/cmd"
 )
 
 var version = "master"

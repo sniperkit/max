@@ -1,12 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package config
 
 import (
 	"io/ioutil"
 
 	"github.com/frozzare/go/http2"
-	"github.com/frozzare/max/internal/cache"
-	"github.com/frozzare/max/internal/task"
 	"gopkg.in/yaml.v2"
+
+	"github.com/sniperkit/snk.fork.max/internal/cache"
+	"github.com/sniperkit/snk.fork.max/internal/task"
 )
 
 func includeHTTPTask(url string, cache *cache.Cache) (*task.Task, error) {

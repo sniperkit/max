@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 build:
   main: main.go
   binary: max
@@ -31,7 +34,7 @@ brew:
   github:
     owner: frozzare
     name: homebrew-tap
-  homepage: https://github.com/frozzare/max
+  homepage: https://github.com/sniperkit/snk.fork.max
   description: Max is a YAML-based task runner
   test: |
     system "#{bin}/max version"

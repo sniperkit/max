@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package docker
 
-import "strings"
+import (
+	"strings"
+)
 
 func toEnv(env map[string]string) []string {
 	var envs []string

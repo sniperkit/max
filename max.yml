@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 tasks:
   build:
     summary: Build docker image
